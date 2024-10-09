@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".EstudianteActivity">
+
+    <TextView
+        android:id="@+id/studentWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido, Carlos Mauricio Marin "
+        android:textSize="24sp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/gradesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tus Notas:"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Notas de materias -->
+    <TextView
+        android:id="@+id/matematicasNota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matemáticas: 4.5"
+        android:textSize="18sp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:id="@+id/historiaNota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Historia: 3.8"
+        android:textSize="18sp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:id="@+id/cienciasNota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ciencias: 4.2"
+        android:textSize="18sp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:id="@+id/lenguaNota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lengua: 4.7"
+        android:textSize="18sp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:id="@+id/arteNota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arte: 5.0"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/matriculaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Detalles de Matrícula" />
+
+</LinearLayout>
